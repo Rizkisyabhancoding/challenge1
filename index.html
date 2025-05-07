@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Conversations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cosmic</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Planets</a>
+        <a href="#">Journeys</a>
+        <a href="artikel.html">Artikel</a>
+      </nav>
+    </header>
+
+    <div id="particles-js"></div>
+
+    <!-- Section dengan teks dan slider -->
+    <section class="hero-carousel scroll-reveal">
+      <h2>Bridging the Gap Between Earth and Space</h2>
+      <p>Join us in a cosmic journey filled with discovery, innovation, and the awe of the universe. From Earth to the stars, we make space closer than ever.</p>
+  
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/bumi.jpg" alt="Planet 1"></div>
+          <div class="swiper-slide"><img src="img/jupiter.jpg" alt="Planet 2"></div>
+          <div class="swiper-slide"><img src="img/mars.jpg" alt="Planet 3"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+      
+
+    <section class="section-cards">
+      <div class="card scroll-reveal">
+        <img src="img/mars.jpg" alt="Mars">
+        <div class="card-content">
+          <h3>Journey to the Red Planet</h3>
+          <p>Explore the mystique and science of Mars, the next frontier for humanity.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+      <div class="card scroll-reveal">
+        <img src="img/jupiter.jpg" alt="Jupiter">
+        <div class="card-content">
+          <h3>Discover Jupiter</h3>
+          <p>Unveil the secrets of the largest planet in our solar system.</p>
+          <a href="#" class="btn">Explore</a>
+        </div>
+      </div>
+      <div class="card scroll-reveal">
+        <img src="img/neptune.jpg" alt="Neptune">
+        <div class="card-content">
+          <h3>Adventure to Neptune</h3>
+          <p>Experience the distant, icy giant with mesmerizing blue hues.</p>
+          <a href="#" class="btn">Dive In</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="nasa-apod" class="scroll-reveal">
+        <h2>NASA -Astronomy Picture of the Day</h2>
+        <div id="apod-container">
+          <p>Loading...</p>
+        </div>
+    </section>
+
+    <section id="nasa-sky" class="scroll-reveall">
+        <h2>NASA -Eyes on the Solar System</h2>
+        <iframe src="https://eyes.nasa.gov/apps/solar-system/#/home" allowfullscreen ></iframe>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Cosmic Conversations. All rights reserved.</p>
+    </footer>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
